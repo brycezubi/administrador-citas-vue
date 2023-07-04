@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contenedor{
+  @apply container mx-auto max-w-7xl w-11/12 lg:w-full my-8
+}
+
+.content__input{
+  @apply flex flex-col gap-2
+}
+
+.btn{
+  @apply w-[160px] text-white py-2 rounded-md font-medium hover:tracking-widest transition-all cursor-pointer
+}
